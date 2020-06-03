@@ -1,8 +1,6 @@
 var mongoose=require("mongoose");
 var Userschema=new mongoose.Schema({
-    UID:Number,
-    NAME:String,
-    AGE:Number,
-    SEX:String
+   name:String,
+   password:Number
 })
 mongoose.model("USER",Userschema)
