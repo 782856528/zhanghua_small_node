@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require("mongoose");
 var user = mongoose.model('USER');
-var logIn = mongoose.model('LOGIN');
 const jwt = require('jsonwebtoken');
 var secretkey = 'secretkey';
 /* GET users listing. */
