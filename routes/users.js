@@ -3,7 +3,7 @@ var router = express.Router();
 var mongoose = require("mongoose");
 var user = mongoose.model('USER');
 const jwt = require('jsonwebtoken');
-var secretkey = 'secretkey';
+var secretkey='secretkey';
 /* GET users listing. */
 router.get('/', function (req, res, next) {
   res.send('respond with a resource');
